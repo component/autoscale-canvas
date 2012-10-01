@@ -1,0 +1,12 @@
+{
+  "name": "autoscale-canvas",
+  "description": "Retina-enable an HTML canvas",
+  "version": "0.0.1",
+  "keywords": ["canvas", "retina", "hd"],
+  "dependencies": {},
+  "component": {
+    "scripts": {
+      "autoscale-canvas/index.js": "index.js"
+    }
+  }
+}
