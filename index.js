@@ -15,6 +15,7 @@ module.exports = function(canvas){
     canvas.style.height = canvas.height + 'px';
     canvas.width *= ratio;
     canvas.height *= ratio;
+    ctx.scale(ratio, ratio);
   }
   return canvas;
 };
